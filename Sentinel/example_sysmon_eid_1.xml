@@ -1,0 +1,80 @@
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+
++ <System>
+
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{​​​​​​​​​5770385f-c22a-43e0-bf4c-06f5698ffbd9}​​​​​​​​​" />
+
+  <EventID>1</EventID>
+
+  <Version>5</Version>
+
+  <Level>4</Level>
+
+  <Task>1</Task>
+
+  <Opcode>0</Opcode>
+
+  <Keywords>0x8000000000000000</Keywords>
+
+  <TimeCreated SystemTime="2022-04-18T18:01:42.6481458Z" />
+
+  <EventRecordID>45618908</EventRecordID>
+
+  <Correlation />
+
+  <Execution ProcessID="5464" ThreadID="7560" />
+
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+
+  <Computer>REDACTED</Computer>
+
+  <Security UserID="S-1-5-18" />
+
+  </System>
+
+
+- <EventData>
+
+  <Data Name="RuleName">technique_id=T1059,technique_name=Command-Line Interface</Data>
+
+  <Data Name="UtcTime">2022-04-18 18:01:42.642</Data>
+
+  <Data Name="ProcessGuid">{​​​​​​​​​be3ad077-a786-625d-d22b-000000002000}​​​​​​​​​</Data>
+
+  <Data Name="ProcessId">21732</Data>
+
+  <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+
+  <Data Name="FileVersion">10.0.22000.1 (WinBuild.160101.0800)</Data>
+
+  <Data Name="Description">Windows Command Processor</Data>
+
+  <Data Name="Product">Microsoft® Windows® Operating System</Data>
+
+  <Data Name="Company">Microsoft Corporation</Data>
+
+  <Data Name="OriginalFileName">Cmd.Exe</Data>
+
+  <Data Name="CommandLine">"C:\Windows\System32\cmd.exe"</Data>
+
+  <Data Name="CurrentDirectory">C:\Users\REDACTED\temp\</Data>
+
+  <Data Name="User">REDACTED\REDACTED</Data>
+
+  <Data Name="TerminalSessionId">1</Data>
+
+  <Data Name="IntegrityLevel">Medium</Data>
+
+  <Data Name="Hashes">SHA1=,MD5=,SHA256=,IMPHASH=</Data>
+
+  <Data Name="ParentProcessGuid">{​​​​​​​​​be3ad077-a6a0-625d-242b-000000002000}​​​​​​​​​</Data>
+
+  <Data Name="ParentProcessId">33804</Data>
+
+  <Data Name="ParentImage">C:\Windows\hh.exe</Data>
+
+  <Data Name="ParentCommandLine">"C:\Windows\hh.exe" C:\Program Files\7-Zip\7-zip.chm</Data>
+
+  </EventData>
+
+  </Event>
